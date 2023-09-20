@@ -1,0 +1,25 @@
+{
+  "name": "frankenbuilders-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeDBNS/frankenbuilders-website.git"
+  },
+  "author": "Joseph Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeDBNS/frankenbuilders-website/issues"
+  },
+  "homepage": "https://github.com/JoeDBNS/frankenbuilders-website#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.67.0"
+  }
+}
