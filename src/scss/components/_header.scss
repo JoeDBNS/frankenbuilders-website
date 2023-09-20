@@ -8,7 +8,7 @@
 		position: absolute;
 		top: -2rem;
 		left: 0;
-		border: 1px solid $brand-pink;
+		border: 1px solid $brand-green;
 		background-color: $white;
 		padding: 2px 12px;
 		outline: none;
@@ -21,7 +21,6 @@
 
 	.navbar {
 		place-content: flex-start;
-		background-color: #fc647d52;
         padding: 16px 20px;
 
 		.navbar-brand {
@@ -36,14 +35,16 @@
         }
 
 		.navbar-pages {
-			padding: 2px 12px;
+			//
 
 			a {
+				background-color: $brand-pink;
 				display: inline-block;
-				padding: 0;
+				padding: 7px 14px;
 				color: #151d28;
 				font-size: 1.175rem;
 				line-height: 1.175rem;
+				border-radius: 2px;
 			}
 		}
 	}
