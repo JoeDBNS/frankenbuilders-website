@@ -1,0 +1,50 @@
+#app-header {
+    grid-area: header;
+	position: sticky;
+	top: 0;
+    z-index: 2;
+
+	.skip-navigation {
+		position: absolute;
+		top: -2rem;
+		left: 0;
+		border: 1px solid $brand-pink;
+		background-color: $white;
+		padding: 2px 12px;
+		outline: none;
+		z-index: 3;
+		transition: linear 0.1s all;
+		&:focus {
+			top: 0;
+		}
+    }
+
+	.navbar {
+		place-content: flex-start;
+		background-color: #fc647d52;
+        padding: 16px 20px;
+
+		.navbar-brand {
+            padding: 0;
+
+            img {
+				width: 2rem;
+				height: auto;
+                overflow: hidden;
+                user-select: none;
+			}
+        }
+
+		.navbar-pages {
+			padding: 2px 12px;
+
+			a {
+				display: inline-block;
+				padding: 0;
+				color: #151d28;
+				font-size: 1.175rem;
+				line-height: 1.175rem;
+			}
+		}
+	}
+}
