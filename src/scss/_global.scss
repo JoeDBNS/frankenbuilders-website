@@ -1,6 +1,10 @@
+@font-face {
+    font-family: Creepster;
+    src: url(../fonts/Creepster-Regular.ttf);
+}
+
 html, body, main {
-    font-family: Monospace;
-	// font-family: Grandstander, Monospace;
+    font-family: "Creepster", Monospace;
 	position: relative;
     width: 100%;
     margin: 0;
