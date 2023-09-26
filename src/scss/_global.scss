@@ -1,9 +1,13 @@
+//Fonts
 @font-face {
     font-family: Creepster;
     src: url(../fonts/Creepster-Regular.ttf);
 }
 
-html, body, main {
+
+
+// HTML and Body
+html, body {
     font-family: "Creepster", Monospace;
 	position: relative;
     width: 100%;
@@ -31,31 +35,29 @@ body {
     background-color: $brand-black;
 }
 
-main {
-    grid-area: main;
-    min-height: 75vh;
 
-    .main-header {
-        height: 2rem;
-        margin: 0;
-        font-size: 1.5rem;
-        padding: 0.25rem;
-        text-align: center;
-    }
-}
 
+// Various Elements
 a {
     color: $blue-dark;
     font-weight: 300;
 	transition: all 0.3s;
 }
 
-h1, h2, h3, h4, h5, h6, button {
-    //
-}
-
 h1 {
     font-size: 4.5rem;
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px #25CE7B;
+}
+
+@media (max-width: 640px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 490px) {
+    h1 {
+        font-size: 2.5rem;
+    }
 }

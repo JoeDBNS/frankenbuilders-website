@@ -1,0 +1,38 @@
+.product-display {
+	background-color: white;
+    margin: 0 -20px;
+    padding: 14px 20px;
+    max-height: 400px;
+    height: 400px;
+
+    .display-controls {
+        position: fixed;
+        width: calc(100% - 40px);
+        height: 372px;
+
+        button {
+            border: none;
+            background: transparent;
+            font-size: 3rem;
+
+            +.button-left {
+                //
+            }
+            +.button-right {
+                float: right;
+            }
+        }
+    }
+
+    .display-images {
+        //
+
+        .image-container {
+            display: flex;
+
+            img {
+                margin: auto;
+            }
+        }
+    }
+}
